@@ -12,7 +12,7 @@ export class SignInComponent implements OnInit {
     ngOnInit(): void {
         this.loginForm = this.formBuilder.group({
             userName: ['', Validators.required],
-            password: ['', Validators.required]]
+            password: ['', Validators.required]
         });
     }
 }
